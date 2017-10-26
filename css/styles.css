@@ -3,9 +3,10 @@
     padding-top:1.5em;
     padding-right:1em;
 }
-
+a{
+	padding-right:1em;
+}
 nav {
-    /* position: fixed; */
     width: 100%;
     background-color: #2aebac;
     display: inline-block;
@@ -42,19 +43,20 @@ img {
 }
 
 footer {
-    background-color: #123456;
+    background-color: #06D6A0;
+    text-align:right;
+    padding:1em ;
 }
 
-footer p {
-    color: white;
+#about{
+	background-color:#123456;
+}
+#about p{
+	color:white;
 }
 
 .values {
     color: orangered;
-}
-
-footer span {
-    background-color: ##65FFBD;
 }
 *{
     box-sizing:border-box;
@@ -78,5 +80,8 @@ div{
 	overflow:hidden;
 }
 h2 {
-    margin-left: 1em;
+    margin-left: 1.5em;
+}
+h1{
+	font-size:40px;
 }
