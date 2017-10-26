@@ -1,0 +1,17 @@
+.nav-items {
+    float: left;
+    width: 50%;
+}
+
+nav {
+    /* position: fixed; */
+    width: 100%;
+    background-color: #2aebac;
+    display: inline-block;
+}
+
+nav h2 {width: 50%;margin: 0;}
+
+body {
+    margin: 0;
+}
