@@ -14,6 +14,7 @@ nav {
 
 nav h2 {
 	float:left;
+	color:white;
 }
 
 body {
@@ -68,13 +69,14 @@ footer {
     float: right;
 }
 .values h3 {
-    width: 33%;
+    width: 32%;
     display: inline-block;
     text-align: center;
 }
 
 p {
     margin: 2em;
+    font-size:20px;
 }
 div{
 	overflow:hidden;
@@ -83,5 +85,8 @@ h2 {
     margin-left: 1.5em;
 }
 h1{
-	font-size:40px;
+	font-size:35px;
+}
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
