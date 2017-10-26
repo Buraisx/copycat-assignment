@@ -1,7 +1,11 @@
-.nav-items {
-    float: right;
-    padding-top:1.5em;
-    padding-right:1em;
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
 }
 a{
 	padding-right:1em;
@@ -16,13 +20,33 @@ nav h2 {
 	float:left;
 	color:white;
 }
-
-body {
-    margin: 0;
+h2 {
+    margin-left: 1.5em;
+}
+p{
+    margin: 2em;
+    font-size:20px;
+}
+div{
+	overflow:hidden;
+}
+h1{
+	font-size:35px;
 }
 img {
     width: 60%;
 }
+footer {
+    background-color: #06D6A0;
+    text-align:right;
+    padding:1em ;
+}
+.nav-items {
+    float: right;
+    padding-top:1.5em;
+    padding-right:1em;
+}
+
 #home {
     background-color: #123456;
     color: white;
@@ -31,22 +55,6 @@ img {
 
 #cats {
     background-color: #FFD565;
-}
-
-.products img {
-    width: 28%;
-    border: 2px solid black;
-    box-sizing: border-box;
-    margin: 1em 0 1em 4%;
-}
-
-.products {
-}
-
-footer {
-    background-color: #06D6A0;
-    text-align:right;
-    padding:1em ;
 }
 
 #about{
@@ -59,9 +67,7 @@ footer {
 .values {
     color: orangered;
 }
-*{
-    box-sizing:border-box;
-}
+
 .welcome {
     width: 40%;
     display: inline-block;
@@ -73,20 +79,11 @@ footer {
     display: inline-block;
     text-align: center;
 }
+.products img {
+    width: 28%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 1em 0 1em 4%;
+}
 
-p {
-    margin: 2em;
-    font-size:20px;
-}
-div{
-	overflow:hidden;
-}
-h2 {
-    margin-left: 1.5em;
-}
-h1{
-	font-size:35px;
-}
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
