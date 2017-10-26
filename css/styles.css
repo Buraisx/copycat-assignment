@@ -1,6 +1,7 @@
 .nav-items {
-    float: left;
-    width: 50%;
+    float: right;
+    padding-top:1.5em;
+    padding-right:1em;
 }
 
 nav {
@@ -10,8 +11,72 @@ nav {
     display: inline-block;
 }
 
-nav h2 {width: 50%;margin: 0;}
+nav h2 {
+	float:left;
+}
 
 body {
     margin: 0;
+}
+img {
+    width: 60%;
+}
+#home {
+    background-color: #123456;
+    color: white;
+    display: inline-block;
+}
+
+#cats {
+    background-color: #FFD565;
+}
+
+.products img {
+    width: 28%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 1em 0 1em 4%;
+}
+
+.products {
+}
+
+footer {
+    background-color: #123456;
+}
+
+footer p {
+    color: white;
+}
+
+.values {
+    color: orangered;
+}
+
+footer span {
+    background-color: ##65FFBD;
+}
+*{
+    box-sizing:border-box;
+}
+.welcome {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+.values h3 {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    margin: 2em;
+}
+div{
+	overflow:hidden;
+}
+h2 {
+    margin-left: 1em;
 }
